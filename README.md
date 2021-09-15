@@ -3,7 +3,7 @@
 A library to generate random values for variables and types members.
 
 Usage:
-
+```Go
 package main
 
 import (
@@ -19,4 +19,5 @@ func main() {
 	fmt.Println("Random Month: ", Any.SolarSystemPlanet())
 	fmt.Println("Random Month: ", Any.DayOftheWeek())
 }
+```
 
