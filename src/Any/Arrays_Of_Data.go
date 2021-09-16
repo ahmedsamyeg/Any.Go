@@ -346,6 +346,10 @@ var continent [7]string = [7]string{
 	"South America",
 }
 
-var constelations [1]string = [1]string{ 
-	"Lynx"
+var constelations [1]string = [1]string{
+	"Lynx",
 }
+
+var letters []rune = []rune("abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ")
+
+var lettersandnumbers []rune = []rune("abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890")
