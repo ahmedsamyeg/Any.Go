@@ -26,7 +26,7 @@ Output
 ```
 Random Country: China
 Random Month: March
-Random US State: ", Any.UsState())
+Random US State: California
 Random Solar System Planet: Venus
 Random Day of the week: March
 ```
