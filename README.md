@@ -13,11 +13,20 @@ import (
 )
 
 func main() {
-	fmt.Println("Random Country: ", Any.Country())
-	fmt.Println("Random Month: ", Any.Month())
-	fmt.Println("Random Month: ", Any.UsState())
-	fmt.Println("Random Month: ", Any.SolarSystemPlanet())
-	fmt.Println("Random Month: ", Any.DayOftheWeek())
+	fmt.Println("Random Country:", Any.Country())
+	fmt.Println("Random Month:", Any.Month())
+	fmt.Println("Random US State:", Any.UsState())
+	fmt.Println("Random Solar System Planet:", Any.SolarSystemPlanet())
+	fmt.Println("Random Day of the week:", Any.DayOftheWeek())
 }
 ```
 
+Output
+
+```
+Random Country: China
+Random Month: March
+Random US State: ", Any.UsState())
+Random Solar System Planet: Venus
+Random Day of the week: March
+```
